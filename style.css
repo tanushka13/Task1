@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --bg-color: #e5e5fd;
+  --border: #1d1e4c;
+  --font: "Inter", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+.m_text,
+.sm_text {
+  font-family: var(--font);
+}
+h1 {
+  font-size: 72px;
+  line-height: 20px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 48px;
+  line-height: 20px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.m_text,
+p,
+li {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.sm_text {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  background-color: var(--bg-color);
+  border: 12px solid var(--border);
+  max-width: 1044px;
+  min-height: 1280px;
+  margin: 0px auto;
+
+  .content{
+    margin: 0px auto;
+    max-width: 1044px;
+
+    .intro {
+      display: flex;
+      margin: 100px 100px 100px 84px;
+      justify-content: space-between;
+  
+      img {
+        max-width: 314px;
+        width: 100%;
+        height: 392px;
+      }
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-bottom: 73px;
+        gap: 30px;
+  
+        .name {
+          letter-spacing: 2px;
+        }
+  
+        .year {
+          display: flex;
+          justify-content: end;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  
+    .main {
+      margin: 104px 90px 40px 80px;
+  
+      .heading {
+        margin-bottom: 40px;
+      }
+    }
+  
+    .biography {
+      margin-top: 40px;
+  
+      h4 {
+        margin-bottom: 30px;
+      }
+      ul {
+        padding: 0px 30px;
+      }
+    }
+  
+    footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 80px;
+      margin-right: 50px;
+  
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  
+}
